@@ -1,0 +1,17 @@
+.bg-img{
+    height: 250px;
+    background-image: url("https://ik.imagekit.io/4z8covdo9/Full%20stack/todolistbg.png?updatedAt=1700761069523");
+    height: 600px;
+    width: 300px;
+    color: white;
+    text-align: center;
+}
+button{
+    color: rgb(8, 0, 0);
+    background-color:rgb(252, 252, 21) ;
+    width: 100px;
+    padding: 5px;
+}
+.bg-img a{
+    color: white;
+}

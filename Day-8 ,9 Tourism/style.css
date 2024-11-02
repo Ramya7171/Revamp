@@ -1,0 +1,14 @@
+.bg-img-container{
+    background-image: url("https://ik.imagekit.io/4z8covdo9/Full%20stack/todolistbg.png?updatedAt=1700761069523");
+    background-size: cover;
+    height: 600px;
+    width: 300px;
+}
+button{
+    background-color: rgb(121, 121, 247);
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+
+}
