@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React  DOM</title>
+</head>
+
+<body>
+
+<P id="para">Hello</P>
+<button id="btn">Change Text</button>
+
+<script>
+const para=document.getElementById ("para")
+const btn=document.getElementById("btn")
+
+addEventListener("click",() =>{
+    para.textcontent="Hiiii"
+})
+
+</script>
+
+<!-----------REACT BASICS-------->
+\
+<div id="root">Not Render </div>
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+
+    <script>
+        const rootElement = document.getElementById("root");
+
+        //<p >Hello world</>
+
+        const paraElement = document.getElementById("P", null, "Hello Woeld")
+
+
+        //<h1 Heading</h1>
+        const HeadingElement = document.getElementById("h1", null, "Heading")
+
+        const root = ReactDOM.CreatRoot(rootElement);
+        root.render(HeadingElement)
+    </script>
+
+</body>
+
+</html>

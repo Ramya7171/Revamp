@@ -3,12 +3,22 @@
     background-size: cover;
     height: 600px;
     width: 300px;
+    justify-self: center;
 }
 
-
-
-.cards{
-    background-image: url("https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/TOURISM-PROJECT/taj-mahal");
-    height: 600px;
-    width: 300px;
+button{
+    background-color: rgb(113, 113, 250);
+    padding: 5px;
+    border: none;
+    color: white;
 }
+.card-1{
+    background-color:white;
+    border-radius:10px ;
+    text-align: center;
+    align-items: center;
+
+} 
+
+
+

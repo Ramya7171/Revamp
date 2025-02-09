@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+</head>
+
+
+<body>
+
+    <p>COUNTER</p>
+    <p id="counter"></p>
+
+    <button id="mini">-</button>
+    <button id="reset">0</button>
+    <button id="plus">+</button>
+
+    <script>
+
+        const counter = document.getElementById("counter")
+        const miniBtn = document.getElementById("mini")
+        const resetBtn = document.getElementById("reset")
+        const plusBtn = document.getElementById("plus")
+
+        miniBtn.addEventListener("click", () => {
+            console.log("-button cliked")
+
+            console.log(counter)
+            counter.textContent =parseInt (counter.textContent) - 1
+        });
+
+        resetBtn.addEventListener("click", () => {
+            console.log("0 button cliked")
+
+            counter.textContent =0
+        });
+
+        plusBtn.addEventListener("click", () => {
+            console.log("+ button cliked")
+        
+            counter.textContent =parseInt(counter.textContent) + 1
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

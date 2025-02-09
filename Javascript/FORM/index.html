@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <!-----form----->
+
+    <form id="form">
+
+        <label for="mail"> Email Address</label>
+        <input id="mail" placeholder="Enter your email" type="email" required />
+        <p id="errorMail" class="text-red-400"></p>
+
+        <label for="pass"> password</label>
+        <input id="pass" placeholder="Enter your password" type="password" required />
+        <p id="errorPass" class="text-red-400"></p>
+        <button>Submit</button>
+</form>
+
+        <!------JS-->
+        <script>
+            const formElememt = document.getElementById("form")
+            const mailElement = document.getElementById("mail")
+            const passElememt = document.getElementById("pass")
+
+            const mailErrorElement = document.getElementById("errorMail");
+            const passErrorElement = document.getElementById("errorPass");
+
+            mailElement.addEventListener("input", (e) => {
+                const EmailRegex = "^[a-zA-Z0-9_.±]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$"
+                if (!e.target.match(EmailRegex0)) {
+                    mailErrorElement.textConent = "Try using the format name@gmail.com"
+                } else {
+                    mailErrorElement.textConent = ""
+                }
+            })
+
+            function validateData(mail, password) {
+                const EmailRegex = "^[a-zA-Z0-9_.±]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$"
+
+                let isValid = true
+                if (!e.target.mail.match(EmailRegex)) {
+                    mailErrorElement.textConent = "Try using the format name@gmail.com"
+                } else {
+                    mailErrorElement.textContent = ""
+                }
+
+                return isValid
+            }
+            //save all the data in DB
+
+            function saveData(mail, password) {
+                console.log(mail, password)
+            }
+            formElememt.addEventListener("submit", (e) => {
+                e.preventDefault()
+
+
+                const res = validateData(mailElement.value, passElememt.value)
+                if (res) {
+                    saveData(mailElement.value, passElememt.value)
+                    console.log(mailElement.value, passElememt.value)
+                }
+            })
+
+
+        </script>
+
+
+
+
+    </form>
+
+
+
+</body>
+
+</html>

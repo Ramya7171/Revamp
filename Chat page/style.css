@@ -1,0 +1,102 @@
+.bg{
+
+    background-image: url(https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/chatbg.png);
+    height: 500px;
+    width: 400px;
+
+}
+.name{
+    background-color: #323f4b;
+    font-size:large;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    
+}
+.names{
+    margin-top: 50px;
+}
+p{
+    color: white;
+    padding: 10px;
+}
+.p-1{
+    background-color:#47a3f3;
+    width: 85%;
+    text-align: end;
+justify-self: center;
+border-top-right-radius:10px ;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+
+
+
+
+}
+.p-3{
+    background-color:#47a3f3;
+    width: 85%;
+    text-align: end;
+    justify-self: center;
+    border-top-right-radius:10px ;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+
+
+
+}
+.p-5{
+    background-color:#47a3f3;
+    width: 85%;
+    text-align: end;
+    justify-self: center;
+    border-top-right-radius:10px ;
+    border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+
+
+
+}
+.p-7{
+    background-color:#47a3f3;
+    width: 85%;
+    text-align: end;
+    justify-self: center;
+    border-top-right-radius:10px ;
+    border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+
+
+}
+.p-2{
+background-color: #52606d;
+width: 85%;
+justify-self: center;
+border-top-left-radius:10px ;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+
+
+}
+.p-4{
+    background-color: #52606d;
+    width: 85%;
+    justify-self: center;
+    border-top-left-radius:10px ;
+    border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+
+
+
+}
+.p-6{
+    background-color: #52606d;
+    width: 85%;
+    justify-self: center;
+    border-top-left-radius:10px ;
+    border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+
+
+
+}

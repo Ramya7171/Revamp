@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM-CAT</title>
+
+    <!---------Js-->
+    <script src="../3.4.15.js"></script>
+
+</head>
+
+<body>
+
+    <div class="bg-black 2xl:container mx-auto ">
+        <!--- bulb img--->
+        <img class="" src="https://ik.imagekit.io/4z8covdo9/Full%20stack/bulb-go-on-img.png" alt="bulb" id="bulb">
+
+
+        <!---- cat img-->
+        <img class="w-20px" src="https://ik.imagekit.io/4z8covdo9/Full%20stack/cat-img.png" alt="CAT" id="cat">
+<div class="text-center">
+        <p id="para" class="text-white text-weight">switch </p>
+        <button id="ON" class="text-white">On</button>
+        <button id="OFF" class="text-white ">Off</button>
+</div>
+    </div>
+
+    <script>
+
+        const BulbElement = document.getElementById("bulb");
+        const CatElement = document.getElementById("cat");
+
+        const paraElement = document.getElementById("para");
+
+        const btnOn = document.getElementById("ON");
+        const btnOff = document.getElementById("OFF");
+
+        btnOn.addEventListener("click", () => {
+
+            BulbElement.src = "https://ik.imagekit.io/4z8covdo9/Full%20stack/bulb-go-on-img.png";
+            CatElement.src = "https://ik.imagekit.io/4z8covdo9/Full%20stack/cat-img.png"
+        })
+
+
+        btnOff.addEventListener("click", () => {
+
+            BulbElement.src = "https://ik.imagekit.io/4z8covdo9/Full%20stack/bulb-go-off-img.png";
+            CatElement.src = "https://ik.imagekit.io/4z8covdo9/Full%20stack/cat-eyes-img.png"
+        })
+
+
+    </script>
+
+
+
+</body>
+
+</html>
